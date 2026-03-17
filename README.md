@@ -15,6 +15,7 @@
 <sup>2</sup>
 <a href=""><img width="22%" src="assets/meta.png" style="vertical-align: top;" alt="Intel logo"></a>
 
+<a href="https://kenchen10.github.io/projects/mlpea/index.html"><img src="https://img.shields.io/badge/project page-MLPEA-blue" alt="project page"></a>
 </div>
 
 <div style="width: 90%; margin: 0 auto;">
