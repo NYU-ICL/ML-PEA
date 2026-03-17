@@ -41,3 +41,15 @@ Place dataset images in `div2k/train/*.png` and `div2k/test/*.png`.
 ## Checkpoints
 
 Saved checkpoints are found at our [Google Drive link](https://drive.google.com/drive/folders/1Fpr_0HNpvti6gM-gYtaqBM0uRxJuEi-T?usp=share_link).
+
+## Acknowledgements
+
+Thank you to Tina Su for help running experiments, and to the user study participants for their time. This research is partially supported by National Science Foundation award #2225861.
+
+## Contact
+Contact [Kenneth Chen](https://kenchen10.github.io) ([kennychen@nyu.edu](mailto:kennychen@nyu.edu)) with any questions about the codebase.
+
+## Related Projects
+[PEA-PODs: Perceptual Evaluation of Algorithms for Power Optimization in XR Displays](https://kenchen10.github.io/projects/sig24/index.html), SIGGRAPH 2024. Kenneth Chen, Thomas Wan, Nathan Matsuda, Ajit Ninan, Alexandre Chapiro†, Qi Sun†.
+
+[Color-Perception-Guided Display Power Reduction for Virtual Reality](https://kenchen10.github.io/projects/vrenergy/index.html), SIGGRAPH Asia 2022. Budmonde Duinkharjav*, Kenneth Chen*, Abhishek Tyagi, Jiayi He, Yuhao Zhu†, Qi Sun†.
