@@ -103,7 +103,6 @@ def init_vars():
     else:
         start_epoch = 1
 
-
     return data_loader, data_loader_test, model, loss_dict, optimizer, start_epoch, opt
 
 def compute_model(model, opt, input):

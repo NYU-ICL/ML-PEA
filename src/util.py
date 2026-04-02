@@ -3,6 +3,12 @@ import os
 import numpy as np
 import torch
 
+def PSNR(original, compressed, max_pixel): 
+    mse = torch.mean((original - compressed) ** 2) 
+    if(mse == 0): 
+        return 100
+    return 20 * torch.log10(max_pixel / torch.sqrt(mse))
+
 def rgb2srgb(lin):
     lin = torch.clamp(lin, 0.0, 1.0)
     srgb = torch.where(lin > 0.0031308, (1.055 * (lin ** (1/2.4))) - 0.055, 12.92 * lin)

@@ -26,7 +26,7 @@ class Options:
         self.parser.add_argument(
             "--method",
             type=str,
-            default="ADD",
+            default="MULT",
             help="ADD or MULT",
         )
         self.parser.add_argument(
